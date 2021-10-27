@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .label{
+            margin: auto ;
+            width: 20%;
+            height: 5%;
+            border: 1px solid black;
+            font-family: 'Permanent Marker';
+            font-size: 2em;
+            color: darkturquoise;
+        }
+        .input-line{
+            margin-top: 50px;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div class="label">AAA</div>
-    <input type="text" class="text">
-    <button class="btn" onclick="check()">Check</button>
+    <div class="pole">
+        <div class="label">AAA</div>
+        <div class="input-line">
+            <input type="text" class="text">
+            <button class="btn" onclick="check()">Check</button>
+        </div>
+        <p></p>
+    </div>
     <script src="script1.js"></script>
 </body>
 </html>

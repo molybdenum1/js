@@ -15,8 +15,8 @@ function getSign(type) {
     return type[Math.floor(Math.random() * type.length)];
 }
 function check(){
-    let inputAns = document.querySelector(".text").value;
-  if(inputAns.textContent == generAns){
+    let inputAns = document.querySelector(".text");
+  if(inputAns.value == generAns){
       alert("right");
   }else{
       alert("wrong");
